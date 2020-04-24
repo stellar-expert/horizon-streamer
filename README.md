@@ -19,7 +19,7 @@ import {Server} from 'stellar-sdk'
 
 const horizon = new Server('https://horizon.stellar.org/')
 
-const finalize = streamer({
+const finalize = horizonStreamer({
     //any horizon call builder which supports streaming
     callBuilder: horizon.effects(),
     //cursor to start from, live blank to stream from the start or use 'now' to start from the most recent record 

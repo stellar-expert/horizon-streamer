@@ -1,0 +1,33 @@
+{
+  "name": "@stellar-expert/horizon-streamer",
+  "version": "0.1.0",
+  "description": "Streaming wrapper for Stellar Horizon",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui bdd --recursive --require ./test/setup-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellar-expert/horizon-streamer.git"
+  },
+  "keywords": [
+    "stellar",
+    "horizon",
+    "stream"
+  ],
+  "author": "StellarExpertTeam<info@stellar.expert>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stellar-expert/horizon-streamer/issues",
+    "email": "info@stellar.expert"
+  },
+  "homepage": "https://github.com/stellar-expert/horizon-streamer#readme",
+  "peer-dependencies": {
+    "stellar-sdk": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "stellar-sdk": "^4.1.0"
+  }
+}
